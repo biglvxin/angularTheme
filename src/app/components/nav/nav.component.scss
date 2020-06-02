@@ -1,0 +1,22 @@
+.nav-wrap {
+    background-color:var(--backgroundColor);
+    font-size: 16px;
+    color: var(--textColor);
+    height: 48px;
+    line-height: 48px;
+    .nav-wrap-header-left {
+        float: left;
+    }
+    .nav-wrap-header-right {
+        float: right;
+        .btn-default {
+            height: 32px;
+            background-color:var(--textColor);
+            color: var(--backgroundColor);
+            outline: none;
+            border:0px;
+            border-radius: 5px;
+        }
+    }
+    
+}
